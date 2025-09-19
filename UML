@@ -1,0 +1,92 @@
++-------------------------+
+|         Account         |
++-------------------------+
+| - accountNumber: String |
+| - balance: double       |
++-------------------------+
+| + Account(accountNumber:|
+|            String,      |
+|            balance:     |
+|            double)      |
+| + getAccountNumber():   |
+|            String       |
+| + setAccountNumber(an:  |
+|            String): void|
+| + getBalance(): double  |
+| + setBalance(b: double):|
+|            void         |
+| + printInfo(): void     |
++-------------------------+
+
++-----------------------------+
+|            Book             |
++-----------------------------+
+| - bookId: String            |
+| - title: String             |
+| - price: double             |
+| - discount: double          |
++-----------------------------+
+| + Book(bookId: String,      |
+|          title: String)     |
+| + Book(bookId: String,      |
+|          title: String,     |
+|          price: double,     |
+|          discount: double)  |
+| + getBookId(): String       |
+| + setBookId(id: String):void|
+| + getTitle(): String        |
+| + setTitle(t: String): void |
+| + getPrice(): double        |
+| + setPrice(p: double): void |
+| + getDiscount(): double     |
+| + setDiscount(d: double):   |
+|             void            |
+| + getFinalPrice(): double   |
+| + displayInfo(): void       |
++-----------------------------+
+
++-------------------------------+
+|           Student             |
++-------------------------------+
+| - studentId: String           |
+| - name: String                |
+| - birthYear: int              |
+| - address: String             |
++-------------------------------+
+| + Student(studentId: String,  |
+|            name: String)      |
+| + Student(studentId: String,  |
+|            name: String,      |
+|            birthYear: int,    |
+|            address: String)   |
+| + getStudentId(): String      |
+| + setStudentId(id: String):   |
+|               void            |
+| + getName(): String           |
+| + setName(n: String): void    |
+| + getBirthYear(): int         |
+| + setBirthYear(y: int): void  |
+| + getAddress(): String        |
+| + setAddress(a: String): void |
+| + getAge(): int               |
+| + displayInfo(): void         |
++-------------------------------+
+
++-----------------------+
+|        Circle         |
++-----------------------+
+| - radius: double      |
+| - PI: final double    |
++-----------------------+
+| + Circle()            |
+| + Circle(radius:      |
+|          double)      |
+| + getRadius(): double |
+| + setRadius(r: double):|
+|            void       |
+| + input(): void       |
+| + output(): void      |
+| + getArea(): double   |
+| + getPerimeter():     |
+|          double       |
++-----------------------+
